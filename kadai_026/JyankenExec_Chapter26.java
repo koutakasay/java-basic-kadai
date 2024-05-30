@@ -8,7 +8,7 @@ public class JyankenExec_Chapter26 {
 		Jyanken_Chapter26 jyanken = new Jyanken_Chapter26();
 		
 		//じゃんけん
-		jyanken.playGame();
+		jyanken.playGame(jyanken.getMyChoice(), jyanken.getRandom());
 	}
 
 }
